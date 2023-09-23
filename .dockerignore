@@ -1,0 +1,23 @@
+# Archivos y directorios generados por el sistema o por el entorno de desarrollo
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+.env
+
+# Directorio de entorno virtual (si estás utilizando uno)
+venv/
+.env/
+
+# Archivos de registro y archivos temporales
+logs/
+*.log
+*.swp
+
+# Directorio de archivos estáticos y media (si se sirven externamente)
+/static/
+/media/
+
+# Directorio de dependencias de Node.js (si estás utilizando Next.js)
+node_modules/
